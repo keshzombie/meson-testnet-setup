@@ -1,0 +1,8 @@
+wget 'https://assets.meson.network:10443/static/terminal/v2.5.1/meson-linux-amd64.tar.gz'
+tar -zxf meson-linux-amd64.tar.gz
+cd ./meson-linux-amd64 
+sudo ./meson service-install
+sudo ./meson service-start
+sudo ./meson service-status
+sudo ./meson service-stop to stop app
+sudo ./meson service-remove to remove app
